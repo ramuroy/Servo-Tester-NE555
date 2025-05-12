@@ -37,7 +37,7 @@ This is a **PCB design** for a **servo motor tester**, created using **KiCad**. 
 This project was created with guidance from the **[Ampnics YouTube Channel](https://www.youtube.com/@ampnics)**. Thanks to their valuable tutorials!
 
 ## 🔗 Links  
-- 🚀 **Project Discussion on LinkedIn**: [LinkedIn](https://www.linkedin.com/posts/ramu-roy-b780382b7_pcbdesign-servo-activity-7317076914295209984-Q4_r)  
+- 🚀 **Project Discussion on LinkedIn**: [LinkedIn](https://www.linkedin.com/posts/ramu-roy-b780382b7_servotester-pcbdesign-ne555-activity-7327220204059430912-TQCX?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEwAX4wBY70YZ3l58lvkiXtyCZcnWWrfJAA&utm_campaign=copy_link)  
 - 📺 **Ampnics Tutorial Playlist**: [YouTube](https://youtube.com/playlist?list=PLxgq6Jtu7shQPHqYjKUVa28CmktTzHDLp&si=jp1xYo7E0JcdnXuT)
 
 ## 📜 License  
