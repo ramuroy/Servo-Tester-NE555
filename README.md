@@ -7,20 +7,26 @@ This is a **PCB design** for a **servo motor tester**, created using **KiCad**. 
 - **Input Voltage**: 6V DC  
 - **Timer IC**: NE555P  
 - **PWM Output**: Variable duty cycle based on RC network  
-- **Timing Components**:  
-  - Potentiometer (for adjusting pulse width)  
-  - Diode (1N4148) to shape timing  
-  - Capacitor: 22nF  
-  - Resistors: 56kΩ, others as required  
-- **Indicators & Connectors**:  
-  - LED with resistor for power indication  
-  - 3-pin header for servo connection (VCC, GND, Signal)
+- **Output**: 3-pin servo header (VCC, GND, Signal)
 
-## 📂 Project Files  
-- **Schematics** → `/Schematics/`  
-- **PCB Layout** → `/PCB_Design/`  
-- **Gerber Files** → `/Gerber_Files/` (for manufacturing)  
-- **Images** → `/Images/` (renders & screenshots)  
+## 🧾 Bill of Materials
+| Component | Value / Part | Qty |
+|-----------|--------------|:---:|
+| Timer IC | NE555P | 1 |
+| Timing diode | 1N4148 | 1 |
+| Timing capacitor | 22 nF | 1 |
+| Resistor | 56 kΩ | 1 |
+| Potentiometer (pulse-width adjust) | — | 1 |
+| Power-indicator LED + resistor | — | 1 + 1 |
+| Servo header | 3-pin (VCC/GND/Signal) | 1 |
+
+> Key components from the design specifications; see the schematic for exact values of any remaining passives.
+
+## 📂 What's in this repo
+- **`Schematics/`** — KiCad schematic source (`Servo Tester.kicad_sch`) + exported PNG
+- **`PCB_Design/`** — KiCad PCB source (`Servo Tester.kicad_pcb`) + exported PNG
+- **`Gerber_Files/`** — ready-to-manufacture Gerbers (`Gerber files.zip`)
+- **`Images/`** — schematic, layout, and 3D renders
 
 ## 🖼️ Preview Images  
 | Schematic | PCB Layout | 3D Render |
@@ -28,9 +34,9 @@ This is a **PCB design** for a **servo motor tester**, created using **KiCad**. 
 | ![Schematic](Images/Schematic.png) | ![PCB](Images/PCB_Layout.png) | ![3D](Images/3d_render1.png) |
 
 ## 🔧 How to Use  
-1️⃣ **Open the KiCad files** in `/Schematics/` and `/PCB_Design/`.  
-2️⃣ **Adjust the potentiometer** to vary the PWM signal.  
-3️⃣ **Use the Gerber files** from `/Gerber_Files/` to order your PCB from a manufacturer.  
+1️⃣ **Open the KiCad files** in `Schematics/` and `PCB_Design/` to review or customize the design.  
+2️⃣ **Order the board** by sending `Gerber_Files/Gerber files.zip` to a PCB manufacturer (or regenerate Gerbers from the KiCad files).  
+3️⃣ **Adjust the potentiometer** to vary the PWM signal.  
 4️⃣ **Connect a servo** to the 3-pin header and power the circuit with 6V DC.
 
 ## 🙏 Credits  
